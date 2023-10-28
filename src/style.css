@@ -1,1 +1,10 @@
 /*a style sheet.*/
+
+body {
+    display: flex;
+    background-color: #e7fff5;
+}
+
+#toplogo {
+    width: 25%;
+}

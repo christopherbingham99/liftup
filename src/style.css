@@ -1,10 +1,17 @@
 /*a style sheet.*/
 
 body {
-    display: flex;
+    width: 75%;
+    margin: auto;
     background-color: #e7fff5;
 }
 
+h1 {
+    color: #102f52;
+}
+
 #toplogo {
-    width: 25%;
+    display: block;
+    margin: auto;
+    width: 20%;
 }

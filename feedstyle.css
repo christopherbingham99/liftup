@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+  
+header img {
+    max-height: 50px;
+}
+  
+.post {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+  
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: url('userimg.png') center/cover;
+}
+  
+.poster-name {
+    font-weight: bold;
+}
+  
+.post-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+  
+.post-image {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+  
+.small-image {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    background: url('fron.png') center/cover;
+}
+  
+.cheer-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background: url('cheer.png') center/cover;
+}
+  
+.post-content {
+    margin-top: 10px;
+}
+  
+.comments-section {
+    margin-top: 20px;
+}
+  
+.comments-heading {
+    font-weight: bold;
+}
+  
+.comment-input {
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.send-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.comment {
+    margin: 10px 0;
+}

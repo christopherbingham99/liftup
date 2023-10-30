@@ -73,13 +73,18 @@ header img {
     height: auto;
     position: relative;
 }
+
+.big-image {
+    width: 100%;
+}
   
 .small-image {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 240px;
-    height: 320px;
+    width: 30%; /*240 x 320*/
+    /*height: 320px;*/
+    padding-bottom: 40%;
     background: url('images/feedimgs/front.png') center/cover;
 }
   

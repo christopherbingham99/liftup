@@ -97,7 +97,7 @@ h6 {
 	position: relative;
 }
 .banner {
-    background: url('images/coverphoto.webp') no-repeat center center; /* Change this line */
+    /*background: url('images/coverphoto.webp') no-repeat center center;*/ /* Change this line */
     background-size: 100% auto; /* This will ensure the image covers the entire banner area */
     padding: 100px 0px;
     position: relative;
@@ -110,7 +110,7 @@ h6 {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: url(images/coverphoto.webp);
+	/*background: url(images/coverphoto.webp);*/
 	background-size: contain;
 	background-position: top center;
 	background-repeat: no repeat;

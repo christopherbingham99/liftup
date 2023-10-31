@@ -97,10 +97,10 @@ h6 {
 	position: relative;
 }
 .banner {
-	background: red;
-	background: linear-gradient(to left, #093680, #4bc992);
-	padding:100px 0px;
-	position:relative;
+    background: url('images/coverphoto.webp') no-repeat center center; /* Change this line */
+    background-size: 100% auto; /* This will ensure the image covers the entire banner area */
+    padding: 100px 0px;
+    position: relative;
 }
 .banner::before {
 	content: "";
@@ -110,7 +110,25 @@ h6 {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: url(images/pattern.png);
+	background: url(images/coverphoto.webp);
+	background-size: contain;
+	background-position: top center;
+	background-repeat: no repeat;
+
+}
+.highlighted-text {
+    background-color: #FFFFFF; /* Gold color for example */
+    padding: 10px; /* Add some space around the text */
+    display: inline-block; /* This ensures the background only wraps around the text, not the entire container */
+    border-radius: 5px; /* Optional: Adds rounded corners to the background */
+}
+.banner a.weblink {
+	color:#ffffff
+
+}
+.banner a.weblink {
+	color:#ffffff
+
 }
 .banner a.weblink {
 	color:#ffffff;

@@ -142,6 +142,13 @@ h6 {
 	bottom: 0;
 	width: 100%;
 }
+.newban{
+	background-color: #60AFB0;
+	border-radius: 5px;
+	padding: 10px;
+	display: inline-block;
+}
+
 .banner-text {
 	padding-right:80px;
 	margin:50px 0px 0px;
